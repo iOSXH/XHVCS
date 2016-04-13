@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XHHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    XHHomeViewController *tabVC = [[XHHomeViewController alloc] init];
+    _window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = tabVC;
+    [self.window makeKeyAndVisible];
+
+    
     return YES;
 }
 

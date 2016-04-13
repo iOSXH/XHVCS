@@ -1,0 +1,8 @@
+platform :ios, '7.0' 
+pod 'Masonry'
+pod 'FDFullscreenPopGesture'
+pod 'SDWebImage', '~> 3.7.5'
+pod 'MBProgressHUD'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'Toast', '~> 3.0'
+pod 'BlocksKit', '~> 2.2.5'
